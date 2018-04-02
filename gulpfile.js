@@ -25,7 +25,7 @@ gulp.task('server', function() {
 gulp.task('templates:compile', function buildHTML() {
   return gulp.src('source/template/index.pug')
     .pipe(pug({
-      pretty: true
+      pretty: true // не сжимать html код
     }))
     .pipe(gulp.dest('build'))
 });
