@@ -1,4 +1,4 @@
-# Стартовая сборка для верстки проектов с использованием Gulp 4.0
+# Стартовая сборка для верстки проектов с помощью менеджера тасков Gulp 4.0
 
 ## Перед стартом проекта необходимо:
 
@@ -13,11 +13,11 @@
 > npm i -g gulp-cli
 
 ## Инструкция для старта проекта:
-* Склонировать данный репозиторий https://github.com/alexterua/template
+1. Склонировать данный репозиторий https://github.com/alexterua/template.
 
 > git clone git@github.com:alexterua/template.git
 
-* Запустить установку всех пакетов, которые указанны в файле package.json, а также все их зависимости
+2. Запустить установку всех пакетов, которые указанны в файле package.json, а также все их зависимости.
 
 > npm install
 
@@ -30,9 +30,13 @@
 - git checkout
 - git merge
 
-## Установка имени и емайла
+## Установка имени и почты
 - git config --global user.name "name"
 - git config --global user.email "name_email@gmail.com"
+
+## Параметры установки окончаний строк
+git config --global core.autocrlf true
+git config --global core.safecrlf true
 
 # Добавить плагины в сборку
 - autoprefixer и sourcemaps
