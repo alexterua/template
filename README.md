@@ -35,8 +35,5 @@
 - git config --global user.email "name_email@gmail.com"
 
 ## Параметры установки окончаний строк
-git config --global core.autocrlf true
-git config --global core.safecrlf true
-
-# Добавить плагины в сборку
-- autoprefixer и sourcemaps
+- git config --global core.autocrlf true
+- git config --global core.safecrlf true
